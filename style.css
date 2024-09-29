@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: #427144;
+    padding: .5rem;
+    width: 100%;
+    z-index: 5;
+   
+}
+#checkbox{
+    display: none;
+}
+.icons1{
+    color: rgb(95, 7, 139);
+    font-size: 1.4rem;
+    font-weight: 660;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+
+}
+.navbar a{
+    margin: 6px;
+    color: aliceblue;
+    text-decoration: none;
+}
+#shopname{
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    
+}
+span{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.backimg{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-photo/anime-coffee-shop-illustration_23-2151764665.jpg?t=st=1727520745~exp=1727524345~hmac=0e37ef3a0de6c583e2b656d099f9ecbec2dd230e70c7a370bd9f6c4b1ef6fde6&w=360");
+    background-size: contain;
+    width: 100%;
+    height:310px;
+    margin-bottom: 30px;
+}
+#img{
+    
+    width: 150px;
+    backdrop-filter: 0.3;
+}
+.contentsec #wel, .contentpara{
+  
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(193, 211, 193);
+}
+#wel{
+    
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 2.8rem;
+}
+.iconbtn{
+    display: flex;
+   justify-content: center;
+   margin: 50px;
+   
+}
+.icons{
+    background-color: rgb(10, 88, 10);
+    border: solid 1px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    color: white;
+}
+
+#secondsec{
+    margin-top: 100px;
+    padding-top: 90px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.img{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -30px;
+     width: 104px;
+     height: 100px;
+     border-radius: 100%;
+     
+
+    
+}
+#img1{
+    margin-left: 35px;
+}
+#img2{
+    margin-left: 35px;
+}
+#img3{
+    margin-left: 35px;
+}
+.contentdiv{
+    
+    width: 200px;
+    height: 300px;
+    background-color: rgb(231, 165, 165);
+  
+    margin: 10px;
+   text-align: center;
+    padding: 15px;
+}
+.mainHead{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+#content2{
+    background-color: rgb(41, 105, 41);
+}
+#content3{
+    background-color: rgb(90, 49, 49);
+}
+.para{
+    color: white;
+    margin-bottom: 10px;
+}
+.explore{
+    border: solid 1px;
+    padding: 2px;
+    width: 90px;
+    margin-left: 35px;
+}
+.explore a{
+    text-decoration: none;
+    color: white;
+}
+.explore i{
+    font-weight: 10px;
+    font-size: 10px;
+    margin-left: 4px;
+}
+.explore:hover{
+    background-color: black;
+}
+
+#thirdsec{
+    margin-top: 20px;
+    height: 350px;
+    width: 100%;
+    background-color: rgba(77, 36, 36, 0.938);
+    display: flex;
+}
+.thirdimg {
+    width: 50%;
+    height: 100%;
+}
+.thirdcontent {
+    
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+#expbtn{
+   margin-left: -5px;
+   
+}
+#gridSec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+    width: 100%;
+    height: 360px;
+    padding-top: 60px;
+}
+.gridimg{
+    width: 100%;
+    height: 360px;
+}
+.gridContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    padding: 8px;
+    text-align: center;
+    
+}
+#gridHeading{
+    margin-bottom: 10px;
+}
+#mediaSec{
+    margin-top: 90px;
+    margin-top: 130px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mediaIcon{
+    margin-left: 50px;
+}
+.mediaIcon i{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.mediaHeading,a{
+    color: rgb(66, 89, 66);
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+#footer {
+    background-color: #2e5937; 
+    height: 130px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footerContent {  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+.footerLogo img{
+    width: 80px;
+}
+.footerItems p{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+@media(max-width:760px ) {
+    .icons1{
+        display: flex;
+    }
+    #closeIcon{
+        display: none;
+    }
+
+    #checkbox:checked~.icons #menuIcon{
+        display: none;
+        
+    }
+    #checkbox:checked~.icons #closeIcon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        display: none;
+
+        
+    }
+    #checkbox:checked~.navbar{
+        display: block;
+        
+    }
+
+
+    .navbar a{
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .navbar a:hover {
+        
+        background-color: rgb(198, 23, 23); /* Change text color on hover */
+        font-weight: 800; /* Optional: Bold text on hover */
+        transition: 1s ease;
+    }
+.contentdiv{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 50px;
+   
+}
+#secondsec{
+    display:grid;
+    margin-bottom: 80px;
+    
+}
+    #img1{
+        margin-left: 55px;
+    }
+    #img2{
+        margin-left: 55px;
+    }
+    #img3{
+        margin-left: 55px;
+    }
+
+    #paraId{
+        font-size: 14px;
+    }
+   
+}
+@media(min-width:760px){
+    .backimg{
+        /* height:  400px;
+        width: 100%; */
+        background-size: contain;
+    }
+    #img1{
+        margin-left: 55px;
+    }
+    #img2{
+        margin-left: 55px;
+    }
+    #img3{
+        margin-left: 55px;
+    }
+
+    .thirdsec{
+        height: 650px;
+        width: 100%;
+        
+    }
+    .thirdimg{
+        width: 200%;
+    }
+    .thirdcontent{
+        padding: 200px;
+    }
+    .gridContent{
+        padding: 40px;
+    }
+}
+
+
