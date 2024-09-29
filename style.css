@@ -261,6 +261,9 @@ span{
 
 
 @media(max-width:760px ) {
+    #header{
+        height: 40px;
+    }
     .icons1{
         display: flex;
     }
@@ -329,12 +332,27 @@ span{
     #paraId{
         font-size: 14px;
     }
+    #thirdsec{
+        height: 400px;
+    }
+    .thirdcontent{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        font-size: 12px;
+        padding: 0;
+       
+
+
+    }
+    #gridSec .gridimg,.gridContent{
+        height:370px ;
+    }
    
 }
 @media(min-width:760px){
     .backimg{
-        /* height:  400px;
-        width: 100%; */
         background-size: contain;
     }
     #img1{
@@ -356,7 +374,7 @@ span{
         width: 200%;
     }
     .thirdcontent{
-        padding: 200px;
+        padding: 50px;
     }
     .gridContent{
         padding: 40px;
