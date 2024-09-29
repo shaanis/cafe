@@ -346,8 +346,10 @@ span{
 
 
     }
+    
     #gridSec .gridimg,.gridContent{
         height:400px ;
+        
     }
    
 }
