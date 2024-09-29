@@ -249,7 +249,6 @@ span{
     flex-direction: row;
     justify-content: space-around; 
     align-items: center; 
-    flex-wrap: wrap; 
 }
 .footerLogo img{
     width: 80px;
@@ -350,6 +349,9 @@ span{
     #gridSec .gridimg,.gridContent{
         height:400px ;
         
+    }
+    #footer p{
+      font-size: 12px;
     }
    
 }
