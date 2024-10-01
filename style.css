@@ -94,6 +94,30 @@ span{
 .icons i{
     color: white;
 }
+.icons:hover i{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
 
 #secondsec{
     margin-top: 100px;
@@ -237,6 +261,7 @@ span{
     text-align: center;
     font-size: 13px;
 }
+
 #footer {
     background-color: #2e5937; 
     height: 130px;
