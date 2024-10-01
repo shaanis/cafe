@@ -317,6 +317,10 @@ span{
     margin-bottom: 50px;
    
 }
+.contentpara{
+  
+    padding: 0px ;
+}
 #secondsec{
     display:grid;
     margin-bottom: 80px;
