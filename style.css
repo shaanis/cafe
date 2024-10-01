@@ -219,15 +219,12 @@ span{
     margin-bottom: 10px;
 }
 #mediaSec{
-    margin-top: 90px;
     margin-top: 130px;
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.mediaIcon{
-    margin-left: 50px;
+    gap: 40px;
 }
 .mediaIcon i{
     font-size: 22px;
