@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header id="header">
@@ -56,18 +57,20 @@
         </div>
     </section>
     <section id="secondsec">
-        <div class="secondMainSec">
+        <div class="secondMainSec" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <div >
                 <img class="img" id="img1" src="https://img.freepik.com/premium-photo/overhead-shot-delicious-french-breakfast-artfully-arranged_1110958-89383.jpg?w=740" alt="">
             </div>
-            <div class="contentdiv">
+            <div class="contentdiv" >
                 <h3  class="mainHead">all day full irish breakfast</h3>
                 <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui pariatur a totam, porro asperiores provident?</p>
                 <div class="explore"><a href="">Explore  <i class="fa-solid fa-arrow-right"></i></a></div>
     
             </div>
         </div>
-        <div  class="secondMainSec">
+        <div  class="secondMainSec" data-aos="zoom-out-up">
             <div >
                 <img class="img" id="img2" src="https://img.freepik.com/premium-photo/bowl-food-with-spoon-spoon-table_403792-5755.jpg?w=826" alt="">
             </div>
@@ -78,7 +81,9 @@
     
             </div>
         </div>
-       <div  class="secondMainSec">
+       <div  class="secondMainSec"  data-aos="fade-left"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
             <div class="image">
                 <img class="img" id="img3" src="https://img.freepik.com/free-photo/pre-prepared-food-showcasing-ready-eat-delicious-meals-go_23-2151431701.jpg?t=st=1727515161~exp=1727518761~hmac=c2545f7faf8d84e3220ecbabe475d30def44ddad784cb04cd7e33e391dbef917&w=360" alt="">
             </div>
@@ -107,10 +112,10 @@
         <img class="gridimg" src="https://img.freepik.com/premium-photo/inviting-cafe-with-soft-lighting-comfy-chairs_1079150-274937.jpg?w=826" alt="">
     </section>
     <section id="mediaSec">
-        <div class="mediaIcon">
+        <div class="mediaIcon" >
            <a href="https://www.instagram.com/aromarestaurantt?igsh=b2FleTNyNGM0Yzl5"  target="_blank">
                 <i class="fa-brands fa-facebook-f"></i>
-                <p class="mediaHeading">FOLLOW OUR</p>
+                <p  class="mediaHeading">FOLLOW OUR</p>
                 <p class="mediaHeading">FACEBOOK</p>
            </a>
         </div>
@@ -140,4 +145,10 @@
         </div>
     </footer>
 </body>
+<!-- aos script -->
+ 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>

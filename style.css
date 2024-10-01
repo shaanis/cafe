@@ -57,6 +57,10 @@ span{
     width: 150px;
     backdrop-filter: 0.3;
 }
+.contentpara{
+  
+    padding: 0px 200px;
+}
 .contentsec #wel, .contentpara{
   
     margin-top: 40px;
@@ -166,8 +170,8 @@ span{
 }
 
 #thirdsec{
-    margin-top: 20px;
-    height: 350px;
+    margin-top: 100px;
+    height: 450px;
     width: 100%;
     background-color: rgba(77, 36, 36, 0.938);
     display: flex;
@@ -351,7 +355,7 @@ span{
         
     }
     #footer p{
-      font-size: 12px;
+      font-size: 11px;
     }
    
 }
